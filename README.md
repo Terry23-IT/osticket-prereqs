@@ -22,11 +22,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Computer or laptop
+- Internet Connection
+- Microsoft Azure
+- Credit or Debit Card (Required for free Azure credits) ($1 and change charge)
 
 <h2>Installation Steps</h2>
 

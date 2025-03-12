@@ -26,21 +26,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Internet Connection
 - Microsoft Azure
 
-![image](https://github.com/user-attachments/assets/3638d493-3414-45eb-9689-fc2f7079fd0e)
-
-For the first step I did a lab checklist to follow along
 <h2>Installation Steps</h2>
 
-![image](https://github.com/user-attachments/assets/69256d64-8c77-447f-910a-fceea41c3ef3)
+![image](https://github.com/user-attachments/assets/94f082ca-33c2-4869-a2c9-52cf43e25cf4)
 
-creating a resource group first is necessary, because it’s required for creating and using resources like virtual machines, storage accounts, and more. Think of it as a folder or container. A Virtual Machine has to have a Resourse Group in order to be created
+In Microsoft Azure i created a virtual machine called osticket-vm on a windows 10 image and used 2vcpus for fast connection 
 </p>
 <br />
-
-![image](https://github.com/user-attachments/assets/904961c9-3992-4c29-bfa8-b4f0b7f09c11)
-
-Create a Storage Account, I clicked the reasourse group that I just created, named the storage account(it needs to be unique across the world that nobody else has). Redundancy is a way data is spread out depending on how inportant it is, in my case its not that important so I put mines in Locally-redundant storage and created a storage account.
-</p>
 <br />
 
 <p>
@@ -95,8 +87,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -105,11 +95,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 <br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
+<br />
+<br />
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
 <br />

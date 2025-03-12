@@ -6,9 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -42,11 +39,9 @@ After creating the osTicket Azure virtual machine  I opened up remote desktop an
 <br />
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+![image](https://github.com/user-attachments/assets/e291f3ff-80f6-4ce5-b45c-0188d6fd97db)
+
+Within the virtual machine I opened the  folder for os ticket and dragged it onto the screen, right clicked on it and clicked on extract all. Theres going to be anothoer folder (probably under the recycle bin icon) that looks extracted. Take the floder that's not extracted asnd put it in the trash icon. Now to start the enable of IIS, cilck on the start and type control panel, within the control panel go to programs(unistall a progam in this case were adding a program) click the check box for Internet Information Servcices and expand it, then expand World Wide Web service, and expand Application Development Features, click on CGI and say ok
 </p>
 <br />
 <br />

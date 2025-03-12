@@ -46,11 +46,25 @@ Within the virtual machine I opened the  folder for os ticket and dragged it ont
 <br />
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+![image](https://github.com/user-attachments/assets/cac55177-683f-40eb-8730-b1358e643e5c)
+
+within the osticket folder I used the files from OS ticket documentation aggregated them all(copied and pasted into a folder within the osTicket-installation-files
+
+ From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
+
+Create the directory C:\PHP
+
+From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder
+
+From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe.
+
+From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+Typical Setup ->
+Launch Configuration Wizard (after install) ->
+Standard Configuration ->
+Username: root
+Password: root
+
 </p>
 <br />
 <br />

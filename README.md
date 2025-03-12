@@ -48,7 +48,7 @@ Within the virtual machine I opened the  folder for os ticket and dragged it ont
 
 ![image](https://github.com/user-attachments/assets/cac55177-683f-40eb-8730-b1358e643e5c)
 
-within the osticket folder I used the files from OS ticket documentation aggregated them all(copied and pasted into a folder within the osTicket-installation-files
+within the osticket folder I used the files from OS ticket documentation aggregated them all(copied and pasted into a folder within the osTicket-installation-files)
 
  From the “osTicket-Installation-Files” folder install the Rewrite Module (rewrite_amd64_en-US.msi)
 
@@ -69,29 +69,58 @@ Password: root
 <br />
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+![image](https://github.com/user-attachments/assets/f86973ff-0bed-4c98-bfe4-5aa3d9c169c8)
+
+Open IIS as an Admin from the start icon
+(dont forget to click run as admin)
+
+Register PHP from within IIS (PHP Manager -> C:\PHP\php-cgi.exe)
+
+Reload IIS (Open IIS, Stop and Start the server)
+
+Install osTicket v1.15.8
+From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+
 </p>
 <br />
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+![image](https://github.com/user-attachments/assets/da918554-93cc-4fa5-9dbc-f8bdd70164a7)
+
+Reload IIS (Open IIS, Stop and Start the server)
+
+Go to sites -> Default -> osTicket
+On the right, click “Browse *:80”
+
+Note that some extensions are not enabled
+Go back to IIS, sites -> Default -> osTicket
+Double-click PHP Manager
+Click “Enable or disable an extension”
+Enable: php_imap.dll
+Enable: php_intl.dll
+Enable: php_opcache.dll
+Refresh the osTicket site in your browser, observe the changes
+
 </p>
 <br />
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+![image](https://github.com/user-attachments/assets/0222f076-9eac-4fcf-803f-df1c245509a5)
+
+Rename: ost-config.php from ost-sampleconfig.php
+
+From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+Assign Permissions: ost-config.php
+Disable inheritance -> Remove All(Remove all inherited permissions from the object)
+
+
+New Permissions -> Everyone -> All
+make sure the basic permissions have full control before continuing 
+Then click apply
+
 </p>
 <br />
 <p>
